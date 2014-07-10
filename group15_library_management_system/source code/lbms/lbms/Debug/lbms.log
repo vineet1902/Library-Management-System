@@ -1,0 +1,206 @@
+﻿Build started 3/14/2014 8:01:48 PM.
+     1>Project "C:\Users\Vineet\Desktop\software Engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\lbms.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\lbms.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\lbms.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\MySQL\Connector NET 6.8.3\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\lbms.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\MySQL\Connector NET 6.8.3\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt add_book_lib.cpp AssemblyInfo.cpp bookClass.cpp bookData_stud.cpp home.cpp home_stud.cpp issue_lib.cpp lbms.cpp remove_book_lib.cpp renew_lib.cpp requests_lib.cpp return_lib.cpp search_lib2.cpp /clr:nostdlib 
+         add_book_lib.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(516): warning C4101: 'cmdDataBase5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(514): warning C4101: 'myReader5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\requests_lib.h(326): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\return_lib.h(477): warning C4101: 'calculate_issue' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(307): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(337): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(425): warning C4101: 'myReader2' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(439): warning C4101: 'e' : unreferenced local variable
+         AssemblyInfo.cpp
+         bookClass.cpp
+         bookData_stud.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookData_stud.h(485): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         home.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookData_stud.h(485): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(665): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(674): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(832): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(837): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(841): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(841): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(843): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(843): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(1056): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(516): warning C4101: 'cmdDataBase5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(514): warning C4101: 'myReader5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\requests_lib.h(326): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\return_lib.h(477): warning C4101: 'calculate_issue' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(307): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(337): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(425): warning C4101: 'myReader2' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(439): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(495): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(500): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(504): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(504): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(506): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(506): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         home_stud.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookData_stud.h(485): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(665): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(674): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(832): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(837): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(841): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(841): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(843): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(843): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(1056): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         issue_lib.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(516): warning C4101: 'cmdDataBase5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(514): warning C4101: 'myReader5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\requests_lib.h(326): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\return_lib.h(477): warning C4101: 'calculate_issue' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(307): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(337): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(425): warning C4101: 'myReader2' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(439): warning C4101: 'e' : unreferenced local variable
+         lbms.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(516): warning C4101: 'cmdDataBase5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(514): warning C4101: 'myReader5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\requests_lib.h(326): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\return_lib.h(477): warning C4101: 'calculate_issue' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(307): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(337): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(425): warning C4101: 'myReader2' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(439): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookData_stud.h(485): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(665): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(674): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(832): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(837): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(841): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(841): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(843): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(843): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_stud.h(1056): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(495): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(500): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(504): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(504): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(506): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home.h(506): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         remove_book_lib.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(516): warning C4101: 'cmdDataBase5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(514): warning C4101: 'myReader5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\requests_lib.h(326): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\return_lib.h(477): warning C4101: 'calculate_issue' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(307): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(337): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(425): warning C4101: 'myReader2' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(439): warning C4101: 'e' : unreferenced local variable
+         renew_lib.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(516): warning C4101: 'cmdDataBase5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(514): warning C4101: 'myReader5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\requests_lib.h(326): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\return_lib.h(477): warning C4101: 'calculate_issue' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(307): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(337): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(425): warning C4101: 'myReader2' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(439): warning C4101: 'e' : unreferenced local variable
+         requests_lib.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(516): warning C4101: 'cmdDataBase5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(514): warning C4101: 'myReader5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\requests_lib.h(326): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\return_lib.h(477): warning C4101: 'calculate_issue' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(307): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(337): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(425): warning C4101: 'myReader2' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(439): warning C4101: 'e' : unreferenced local variable
+         return_lib.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(516): warning C4101: 'cmdDataBase5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(514): warning C4101: 'myReader5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\requests_lib.h(326): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\return_lib.h(477): warning C4101: 'calculate_issue' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(307): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(337): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(425): warning C4101: 'myReader2' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(439): warning C4101: 'e' : unreferenced local variable
+         search_lib2.cpp
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(516): warning C4101: 'cmdDataBase5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\issue_lib.h(514): warning C4101: 'myReader5' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\requests_lib.h(326): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\return_lib.h(477): warning C4101: 'calculate_issue' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(307): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\search_lib2.h(337): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(425): warning C4101: 'myReader2' : unreferenced local variable
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\home_lib.h(439): warning C4101: 'e' : unreferenced local variable
+         Generating Code...
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(512): warning C4715: 'lbms::bookData_stud::user_request_limit' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(540): warning C4715: 'lbms::bookData_stud::number_of_books_requested_by_user' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(572): warning C4715: 'lbms::bookData_stud::book_available' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(600): warning C4715: 'lbms::bookData_stud::already_requested' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(512): warning C4715: 'lbms::bookData_stud::user_request_limit' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(540): warning C4715: 'lbms::bookData_stud::number_of_books_requested_by_user' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(572): warning C4715: 'lbms::bookData_stud::book_available' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(600): warning C4715: 'lbms::bookData_stud::already_requested' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(512): warning C4715: 'lbms::bookData_stud::user_request_limit' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(540): warning C4715: 'lbms::bookData_stud::number_of_books_requested_by_user' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(572): warning C4715: 'lbms::bookData_stud::book_available' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(600): warning C4715: 'lbms::bookData_stud::already_requested' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(512): warning C4715: 'lbms::bookData_stud::user_request_limit' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(540): warning C4715: 'lbms::bookData_stud::number_of_books_requested_by_user' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(572): warning C4715: 'lbms::bookData_stud::book_available' : not all control paths return a value
+     1>c:\users\vineet\desktop\software engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\bookdata_stud.h(600): warning C4715: 'lbms::bookData_stud::already_requested' : not all control paths return a value
+         All outputs are up-to-date.
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\MySQL\Connector NET 6.8.3\Assemblies\v4.0\MySql.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile add_book_lib.resx,Debug\lbms.add_book_lib.resources bookData_stud.resx,Debug\lbms.bookData_stud.resources home.resx,Debug\lbms.home.resources home_lib.resX,Debug\lbms.home_lib.resources home_stud.resx,Debug\lbms.home_stud.resources issue_lib.resx,Debug\lbms.issue_lib.resources remove_book_lib.resx,Debug\lbms.remove_book_lib.resources renew_lib.resx,Debug\lbms.renew_lib.resources requests_lib.resx,Debug\lbms.requests_lib.resources return_lib.resx,Debug\lbms.return_lib.resources search_lib2.resx,Debug\lbms.search_lib2.resources
+         Processing resource file "add_book_lib.resx" into "Debug\lbms.add_book_lib.resources".
+         Processing resource file "bookData_stud.resx" into "Debug\lbms.bookData_stud.resources".
+         Processing resource file "home.resx" into "Debug\lbms.home.resources".
+         Processing resource file "home_lib.resX" into "Debug\lbms.home_lib.resources".
+         Processing resource file "home_stud.resx" into "Debug\lbms.home_stud.resources".
+         Processing resource file "issue_lib.resx" into "Debug\lbms.issue_lib.resources".
+         Processing resource file "remove_book_lib.resx" into "Debug\lbms.remove_book_lib.resources".
+         Processing resource file "renew_lib.resx" into "Debug\lbms.renew_lib.resources".
+         Processing resource file "requests_lib.resx" into "Debug\lbms.requests_lib.resources".
+         Processing resource file "return_lib.resx" into "Debug\lbms.return_lib.resources".
+         Processing resource file "search_lib2.resx" into "Debug\lbms.search_lib2.resources".
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Vineet\Desktop\software Engineering\project 2- library management system\group15_library_management_system\source code\lbms\Debug\lbms.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\lbms.add_book_lib.resources /ASSEMBLYRESOURCE:Debug\lbms.bookData_stud.resources /ASSEMBLYRESOURCE:Debug\lbms.home.resources /ASSEMBLYRESOURCE:Debug\lbms.home_lib.resources /ASSEMBLYRESOURCE:Debug\lbms.home_stud.resources /ASSEMBLYRESOURCE:Debug\lbms.issue_lib.resources /ASSEMBLYRESOURCE:Debug\lbms.remove_book_lib.resources /ASSEMBLYRESOURCE:Debug\lbms.renew_lib.resources /ASSEMBLYRESOURCE:Debug\lbms.requests_lib.resources /ASSEMBLYRESOURCE:Debug\lbms.return_lib.resources /ASSEMBLYRESOURCE:Debug\lbms.search_lib2.resources /MANIFEST /ManifestFile:"Debug\lbms.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Vineet\Desktop\software Engineering\project 2- library management system\group15_library_management_system\source code\lbms\Debug\lbms.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\add_book_lib.obj
+         Debug\AssemblyInfo.obj
+         Debug\bookClass.obj
+         Debug\bookData_stud.obj
+         Debug\home.obj
+         Debug\home_stud.obj
+         Debug\issue_lib.obj
+         Debug\lbms.obj
+         Debug\remove_book_lib.obj
+         Debug\renew_lib.obj
+         Debug\requests_lib.obj
+         Debug\return_lib.obj
+         Debug\search_lib2.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         lbms.vcxproj -> C:\Users\Vineet\Desktop\software Engineering\project 2- library management system\group15_library_management_system\source code\lbms\Debug\lbms.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Vineet\Desktop\software Engineering\project 2- library management system\group15_library_management_system\source code\lbms\Debug\lbms.exe;#1" /manifest Debug\lbms.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\lbms.unsuccessfulbuild".
+         Touching "Debug\lbms.lastbuildstate".
+     1>Done Building Project "C:\Users\Vineet\Desktop\software Engineering\project 2- library management system\group15_library_management_system\source code\lbms\lbms\lbms.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.88

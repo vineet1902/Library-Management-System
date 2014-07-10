@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1D0612F-9A29-48D9-BE39-66C27263D515}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>lbms</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="add_book_lib.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="bookClass.cpp" />
+    <ClCompile Include="bookData_stud.cpp" />
+    <ClCompile Include="home.cpp" />
+    <ClCompile Include="home_stud.cpp" />
+    <ClCompile Include="issue_lib.cpp" />
+    <ClCompile Include="lbms.cpp" />
+    <ClCompile Include="remove_book_lib.cpp" />
+    <ClCompile Include="renew_lib.cpp" />
+    <ClCompile Include="requests_lib.cpp" />
+    <ClCompile Include="return_lib.cpp" />
+    <ClCompile Include="search_lib2.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add_book_lib.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="bookClass.h" />
+    <ClInclude Include="bookData_stud.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="home.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="home_lib.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="home_stud.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="issue_lib.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="remove_book_lib.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="renew_lib.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="requests_lib.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="return_lib.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="search_lib2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="add_book_lib.resx">
+      <DependentUpon>add_book_lib.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bookData_stud.resx">
+      <DependentUpon>bookData_stud.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home_lib.resX">
+      <DependentUpon>home_lib.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home_stud.resx">
+      <DependentUpon>home_stud.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="issue_lib.resx">
+      <DependentUpon>issue_lib.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="remove_book_lib.resx">
+      <DependentUpon>remove_book_lib.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="renew_lib.resx">
+      <DependentUpon>renew_lib.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="requests_lib.resx">
+      <DependentUpon>requests_lib.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="return_lib.resx">
+      <DependentUpon>return_lib.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search_lib2.resx">
+      <DependentUpon>search_lib2.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
